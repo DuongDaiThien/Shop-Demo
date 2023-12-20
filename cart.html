@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ Hàng</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/products-detail-itemp.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header >
+        <div class="logo">
+            LucasStyle
+        </div>
+        <div class="hamburger">
+            <div class="line">.</div>
+            <div class="line">.</div>
+            <div class="line">.</div>
+        </div>
+        <div class="main-menu">
+            <nav class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="" class="active">Nam</a>
+                        <ul class="sub-menu">
+                            <li><a href="" class="active-child">Hàng mới về</a></li>
+                            <li><a href="">ABC Collection</a></li>
+                            <li><a href="">Áo</a>
+                                <ul>
+                                    <li><a href="">Áo sơ mi</a></li>
+                                    <li><a href="">Áo thun</a></li>
+                                    <li><a href="">Áo vest</a></li>
+                                    <li><a href="">Áo len</a></li>
+                                    <li><a href="">Áo khoác</a></li>
+                                </ul>
+                            </li>
+        
+                            <li><a href="">Quần</a>
+                                <ul>
+                                    <li><a href="">Quần jeans</a></li>
+                                    <li><a href="">Quần lửng/short</a></li>
+                                    <li><a href="">Quần dài</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">Nữ</a>
+                        <ul class="sub-menu">
+                            <li><a href="">NEW ARRIVALS</a></li>
+                            <li><a href="">Áo</a>
+                                <ul>
+                                    <li><a href="">Áo sơ mi</a></li>
+                                    <li><a href="">Áo phao</a></li>
+                                    <li><a href="">Áo len</a></li>
+                                    <li><a href="">Áo vest</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Quần</a>
+                                <ul>
+                                    <li><a href="">Quần jeans</a></li>
+                                    <li><a href="">Quần lửng/short</a></li>
+                                    <li><a href="">Quần dài</a></li>
+                                    <li><a href="">Quần khaki</a></li>
+                                    <li><a href="">Quần tây</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Giày & Dép</a>
+                                <ul class="sub-menu-child">
+                                    <li><a href="">Giày/Dép</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Phụ kiện</a>
+                                <ul class="sub-menu-child">
+                                    <li><a href="">Phụ kiện</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">Trẻ em</a>
+                    </li>
+                    <li>
+                        <a href="" style="color: red;">Sales</a>
+                    </li>
+                    <li>
+                        <a href="">Về chúng tôi</a>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>
+                                <input placeholder="Tìm kiếm" type="text">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </li>
+                            <li><a class="fa-regular fa-user" href=""></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- -----------------------------CART----------------------------- -->
+    <section class="cart">
+        <div class="container">
+            <div class="cart-top-wrap">
+                <div class="cart-top">
+                    <div class="cart-top-cart cart-top-item">
+                        <i class="fa-solid fa-cart-shopping cart-top-item"></i>
+                    </div>
+                    <div class="cart-top-address cart-top-item">
+                        <i class="fa-solid fa-location-dot cart-top-item"></i>
+                    </div>
+                    <div class="cart-top-payment cart-top-item">
+                        <i class="fa-solid fa-money-bill cart-top-item"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="cart-content row">
+                <div class="cart-content-left col-sm-9">
+                    <table>
+                        <tr class="info-cart column">
+                            <th class="col-sm-2">Sản phẩm</th>
+                            <th class="col-sm-2">Tên sản phẩm</th>
+                            <th class="col-sm-2">Màu</th>
+                            <th class="col-sm-2">Size</th>
+                            <th class="col-sm-2">SL</th>
+                            <th class="col-sm-2">Thành tiền</th>
+                            <th class="col-sm-2">Xóa</th>
+                        </tr>
+                        <tr class="info-cart column">
+                            <td><img src="./assets/img/products/items_male/Ao_So_Mi_Khaki_Regular_fit/item02.jpg" alt=""></td>
+                            <td><p>Áo sơ mi Khaki Regular fit</p></td>
+                            <td><img src="./assets/img/products/colors_product/009.png" alt=""></td>
+                            <td><p>L</p></td>
+                            <td><input type="number" value="1" min="1"></td>
+                            <td><p>1.290.000đ</p></td>
+                            <td>X</td>
+                        </tr>
+                        <tr class="info-cart column">
+                            <td><img src="./assets/img/products/items_male/Dalio_Trouser/item00.jpg" alt=""></td>
+                            <td><p>Dalio Trouser - Quần Tây cúc lệch fit</p></td>
+                            <td><img src="./assets/img/products/colors_product/049.png" alt=""></td>
+                            <td><p>M</p></td>
+                            <td><input type="number" value="1" min="1"></td>
+                            <td><p>1.290.000đ</p></td>
+                            <td>X</td>
+                        </tr>
+                        <tr class="info-cart column">
+                            <td><img src="./assets/img/products/items_male/Ao_len_Slim_fit_basic/item00.jpg" alt=""></td>
+                            <td><p>Áo len Slim fit basic</p></td>
+                            <td><img src="./assets/img/products/colors_product/049.png" alt=""></td>
+                            <td><p>M</p></td>
+                            <td><input type="number" value="1" min="1"></td>
+                            <td><p>1.390.000đ</p></td>
+                            <td>X</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="cart-content-right col-sm-3">
+                    <table>
+                        <tr>
+                            <th colspan="2">TỔNG TIỀN</th>
+                        </tr>
+                        <tr>
+                            <td>TỔNG SẢN PHẨM</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>TỔNG TIỀN HÀNG</td>
+                            <td><p>1.290.000đ</p></td> 
+                        </tr>
+                        <tr>
+                            <td>TẠM TÍNH</td>
+                            <td><p>1.290.000đ</p></td> 
+                        </tr>
+                    </table>
+                    <div class="cart-content-right-text">
+                        <p>Bạn sẽ được miễn phí ship khi đơn hàng của bạn có tổng giá trị trên 1500.000đ</p>
+                        <p>Mua thêm 210.000đ để được miễn phí SHIP</p>
+                    </div>
+                    <div class="cart-content-right-button">
+                        <div class="shoping-continue"><button>Tiếp tục mua sắp</button></div>
+                        <div class="thanh-toan"><button>THANH TOÁN</button></div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- -----------------------------FOOTER----------------------------- -->
+    <footer>
+     <div class="footer-top">
+         <li><a href=""><img src="./assets/img/profiles/img-congthuong.png" alt=""></a></li>
+         <li><a href=""></a>Liên hệ</li>
+         <li><a href=""></a>Giới thiệu</li>
+         <li><a href=""></a>Dịch vụ khách hàng</li>
+         <li>
+             <a href="https://www.facebook.com/lucasduong2103" target="_blank" class="fa-brands fa-facebook"></a>
+             <a href="" class="fa-brands fa-square-youtube"></a>
+             <a href="" class="fa-brands fa-tiktok"></a>
+         </li>
+      </div>
+     <p style="text-align: center;">Công ty Cổ phần Lucas Duong với số đăng ký kinh doanh: 0975 648 753 <br>
+         Địa chỉ đăng ký: thôn An Hải, xã Bình Châu, huyện Bình Sơn, tỉnh Quảng Ngãi, Việt Nam - 0972 085 901 <br>
+         Đặt hàng online: <b>0397 799 127</b>
+     </p>
+     <div class="footer-bottom">
+         <p>@LucasStyle All rights reversed</p>
+     </div>
+    </footer>
+</body>
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+intent="WELCOME"
+chat-title="Hỗ_trợ_Tư_vấn"
+agent-id="69ac36bd-1dcc-4126-9d63-5f93373f9e47"
+language-code="en"
+></df-messenger>
+
+<script src="./assets/js/script.js"></script>
+</html>

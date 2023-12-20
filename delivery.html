@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giao hàng</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/products-detail-itemp.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <header >
+        <div class="logo">
+            LucasStyle
+        </div>
+        <div class="hamburger">
+            <div class="line">.</div>
+            <div class="line">.</div>
+            <div class="line">.</div>
+        </div>
+        <div class="main-menu">
+            <nav class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="" class="active">Nam</a>
+                        <ul class="sub-menu">
+                            <li><a href="" class="active-child">Hàng mới về</a></li>
+                            <li><a href="">ABC Collection</a></li>
+                            <li><a href="">Áo</a>
+                                <ul>
+                                    <li><a href="">Áo sơ mi</a></li>
+                                    <li><a href="">Áo thun</a></li>
+                                    <li><a href="">Áo vest</a></li>
+                                    <li><a href="">Áo len</a></li>
+                                    <li><a href="">Áo khoác</a></li>
+                                </ul>
+                            </li>
+        
+                            <li><a href="">Quần</a>
+                                <ul>
+                                    <li><a href="">Quần jeans</a></li>
+                                    <li><a href="">Quần lửng/short</a></li>
+                                    <li><a href="">Quần dài</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">Nữ</a>
+                        <ul class="sub-menu">
+                            <li><a href="">NEW ARRIVALS</a></li>
+                            <li><a href="">Áo</a>
+                                <ul>
+                                    <li><a href="">Áo sơ mi</a></li>
+                                    <li><a href="">Áo phao</a></li>
+                                    <li><a href="">Áo len</a></li>
+                                    <li><a href="">Áo vest</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Quần</a>
+                                <ul>
+                                    <li><a href="">Quần jeans</a></li>
+                                    <li><a href="">Quần lửng/short</a></li>
+                                    <li><a href="">Quần dài</a></li>
+                                    <li><a href="">Quần khaki</a></li>
+                                    <li><a href="">Quần tây</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Giày & Dép</a>
+                                <ul class="sub-menu-child">
+                                    <li><a href="">Giày/Dép</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Phụ kiện</a>
+                                <ul class="sub-menu-child">
+                                    <li><a href="">Phụ kiện</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="">Trẻ em</a>
+                    </li>
+                    <li>
+                        <a href="" style="color: red;">Sales</a>
+                    </li>
+                    <li>
+                        <a href="">Về chúng tôi</a>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>
+                                <input placeholder="Tìm kiếm" type="text">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </li>
+                            <li><a class="fa-regular fa-user" href=""></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ---------------------------- DELIVERY-------------------------------->
+    <section class="delivery">
+        <div class="container">
+            <div class="delivey-top-wrap">
+                <div class="delivery-top">
+                    <div class="delivery-top-delivery delivery-top-item">
+                        <i class="fas fa-shopping-deliver"></i>
+                    </div>
+                    <div class="delivery-top-address delivery-top-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="delivery-top-payment delivery-top-item">
+                        <i class="fas fa-money-check-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="delivery-content row">
+                <div class="delivery-content-left col-sm-8">
+                    <p>Vui lòng chọn địa chỉ giao hàng</p>
+                    <div class="delivery-content-left-select">
+                        <div class="delivery-content-left-dangnhap">
+                            <i class="fas fa-sign-in-alt"></i>
+                            <p>Đăng nhập (Nếu bạn đã có tài khoản của IVY)</p>
+                        </div>
+                        <div class="delivery-content-left-khachle ">
+                            <input checked name="loaikhach"type="radio">
+                            <p><span style="font-weight: bold;">Khách lẻ</span> (Nếu bạn không muốn lưu lại thông tin)</p>
+                        </div>
+                        <div class="delivery-content-left-dangky">
+                            <input  name="loaikhach"type="radio">
+                            <p><span style="font-weight: bold;">Đăng ký</span> (Tạo mới tài khoản với thông tin bên dưới)</p>
+                        </div>
+                    </div>
+                    <div class="delivery-content-left-input-top row">
+                        <div class="delivery-content-left-input-top-item col-sm-6">
+                            <label for="">Họ tên <span style="color: red;">*</span></label>
+                            <input type="text" name="" id="">
+                        </div>
+    
+                        <div class="delivery-content-left-input-top-item col-sm-6">
+                            <label for="">Điện thoại <span style="color: red;">*</span></label>
+                            <input type="text" name="" id="">
+                        </div>
+    
+                        <div class="delivery-content-left-input-top-item col-sm-6">
+                            <label for="">Tỉnh/TP <span style="color: red;">*</span></label>
+                            <input type="text" name="" id="">
+                        </div>
+    
+                        <div class="delivery-content-left-input-top-item col-sm-6">
+                            <label for="">Quận/Huyện <span style="color: red;">*</span></label>
+                            <input type="text" name="" id="">
+                        </div>
+                    </div>
+                   <div class="delivery-content-left-input-bottom col-sm-6">
+                            <label for="">Địa chỉ <span style="color: red;">*</span></label>
+                            <input type="text" name="" id="">
+                   </div> 
+                   <div class="delivery-content-left-button">
+                        <a href=""><p>Quay lại giỏ hàng</p></a>
+                        <button><p style="font-weight:bold;">THANH TOÁN VÀ GIAO HÀNG</p></button>
+                   </div>
+                </div>
+    
+                <div class="delivery-content-right col-sm-4">
+                    <table>
+                        <tr>
+                            <th>Tên sản phẩm</th>
+                            <th>Giảm giá</th>
+                            <th>Số lượng</th>
+                            <th>Thành tiền</th>
+                        </tr>
+                        <tr>
+                            <td>Áo sơ mi lụa dáng suông</td>
+                            <td>-30%</td>
+                            <td>1</td>
+                            <td><p>300.000 <sup>đ</sup></p></td>
+                        </tr>
+                        <tr>
+                            <td>Áo sơ mi lụa dáng suông</td>
+                            <td>-20%</td>
+                            <td>1</td>
+                            <td><p>350.000 <sup>đ</sup></p></td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;" colspan="3">Tổng</td>
+                            <td style="font-weight: bold;"><p>350.000 <sup>đ</sup></p></td>
+                        </tr>
+        
+                        <tr>
+                            <td style="font-weight: bold;" colspan="3">Thuế VAT</td>
+                            <td style="font-weight: bold;"><p>35.000 <sup>đ</sup></p></td>
+                        </tr>
+        
+                        <tr>
+                            <td style="font-weight: bold;" colspan="3">Tổng tiền hàng</td>
+                            <td style="font-weight: bold;"><p>350.000 <sup>đ</sup></p></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+    
+
+     <!-- -----------------------------FOOTER----------------------------- -->
+     <footer>
+        <div class="footer-top">
+            <li><a href=""><img src="./assets/img/profiles/img-congthuong.png" alt=""></a></li>
+            <li><a href=""></a>Liên hệ</li>
+            <li><a href=""></a>Giới thiệu</li>
+            <li><a href=""></a>Dịch vụ khách hàng</li>
+            <li>
+                <a href="https://www.facebook.com/lucasduong2103" target="_blank" class="fa-brands fa-facebook"></a>
+                <a href="" class="fa-brands fa-square-youtube"></a>
+                <a href="" class="fa-brands fa-tiktok"></a>
+            </li>
+         </div>
+        <p style="text-align: center;">Công ty Cổ phần Lucas Duong với số đăng ký kinh doanh: 0975 648 753 <br>
+            Địa chỉ đăng ký: thôn An Hải, xã Bình Châu, huyện Bình Sơn, tỉnh Quảng Ngãi, Việt Nam - 0972 085 901 <br>
+            Đặt hàng online: <b>0397 799 127</b>
+        </p>
+        <div class="footer-bottom">
+            <p>@LucasStyle All rights reversed</p>
+        </div>
+       </footer>
+</body>
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+intent="WELCOME"
+chat-title="Hỗ_trợ_Tư_vấn"
+agent-id="69ac36bd-1dcc-4126-9d63-5f93373f9e47"
+language-code="en"
+></df-messenger>
+
+<script src="./assets/js/script.js"></script>
+</html>
